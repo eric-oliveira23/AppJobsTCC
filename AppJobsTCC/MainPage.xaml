@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppJobsTCC.MainPage"
+             BackgroundImageSource="background.png">
+
+    <StackLayout>
+
+        <StackLayout>
+
+            <Button Text="Ajuda" HorizontalOptions="End" TextColor="Black" BackgroundColor="Transparent"/>
+
+        </StackLayout>
+        
+        <StackLayout Padding="30">
+
+            <Label>
+
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Jobs," FontSize="36" FontAttributes="Bold" TextColor="#762dd3"/>
+                        <Span Text=" sua&#10;plataforma de &#10;serviços online." FontSize="30" TextColor="Black" />
+                    </FormattedString>
+                </Label.FormattedText>
+
+            </Label>
+
+        </StackLayout>
+
+        <StackLayout Padding="15" VerticalOptions="Center">
+
+            <Label HorizontalTextAlignment="Start" Margin="0,170" HorizontalOptions="Center" Text="Faça sua conta&#10;pessoal ou empresarial" FontSize="25" TextColor="White"/>
+
+        </StackLayout>
+
+            <StackLayout Margin="0,-120">
+
+                <Button BackgroundColor="White" ImageSource="arrow_login.png" ContentLayout="Right" TextColor="#762dd3" Text="Crie sua conta" FontAttributes="Bold" HorizontalOptions="Center" WidthRequest="180"/>
+
+            </StackLayout>
+
+                <StackLayout VerticalOptions="EndAndExpand" Margin="30">
+
+                    <Label Text="Já possui conta?" FontSize="15" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    <Button Text="Faça seu login" FontSize="13" Margin="0,-15" TextColor="White" HorizontalOptions="Center" BackgroundColor="Transparent"/>
+
+                </StackLayout>
+
+        <StackLayout HorizontalOptions="Center">
+
+            <Label Text="Todos os direitos reservados, 2022" TextColor="White" Padding="10"/>
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
